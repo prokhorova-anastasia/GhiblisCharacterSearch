@@ -1,0 +1,6 @@
+framework module Pods_GhiblisCharacterSearch {
+  umbrella header "Pods-GhiblisCharacterSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

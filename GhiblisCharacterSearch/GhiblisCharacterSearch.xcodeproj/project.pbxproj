@@ -3,16 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5382C27A73D918E679883E /* Pods_GhiblisCharacterSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B8C4349C05531D0AAE0D93 /* Pods_GhiblisCharacterSearch.framework */; };
+		3FB6A77F8AB15166A4D2FB7C /* Pods_GhiblisCharacterSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2222550EB1DFAE6D311BD027 /* Pods_GhiblisCharacterSearchTests.framework */; };
+		4D13D83E22E3C7E400C38DD3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D13D83D22E3C7E400C38DD3 /* WebKit.framework */; };
+		4D332E7022E3B4B10006B50C /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D332E6F22E3B4B10006B50C /* Gradient.swift */; };
 		4D62B57F22DE3C7900F31213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B57E22DE3C7900F31213 /* AppDelegate.swift */; };
 		4D62B58122DE3C7900F31213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B58022DE3C7900F31213 /* SceneDelegate.swift */; };
 		4D62B58322DE3C7900F31213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B58222DE3C7900F31213 /* ViewController.swift */; };
 		4D62B58622DE3C7900F31213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D62B58422DE3C7900F31213 /* Main.storyboard */; };
 		4D62B58822DE3C7A00F31213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D62B58722DE3C7A00F31213 /* Assets.xcassets */; };
 		4D62B58B22DE3C7A00F31213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D62B58922DE3C7A00F31213 /* LaunchScreen.storyboard */; };
+		4DA9B29122DF46C20086D39E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9B29022DF46C20086D39E /* Character.swift */; };
+		A3258182F1C342CE211243F3 /* Pods_GhiblisCharacterSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB275AB5FFEE6256C766CF7 /* Pods_GhiblisCharacterSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6D0B41CCAAA630EE9893B6 /* Pods-GhiblisCharacterSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearchTests.release.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearchTests/Pods-GhiblisCharacterSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		2222550EB1DFAE6D311BD027 /* Pods_GhiblisCharacterSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhiblisCharacterSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		425EFC60992C86A350588A2F /* Pods-GhiblisCharacterSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearch.release.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch.release.xcconfig"; sourceTree = "<group>"; };
+		4D13D83D22E3C7E400C38DD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4D332E6F22E3B4B10006B50C /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		4D62B57B22DE3C7900F31213 /* GhiblisCharacterSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhiblisCharacterSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D62B57E22DE3C7900F31213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D62B58022DE3C7900F31213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +54,13 @@
 		4D62B58C22DE3C7A00F31213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D62B59122DE3C7A00F31213 /* GhiblisCharacterSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhiblisCharacterSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D62B59C22DE3C7A00F31213 /* GhiblisCharacterSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhiblisCharacterSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA9B29022DF46C20086D39E /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4DB26CF80BAE5AA246EAB3AB /* Pods-GhiblisCharacterSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearch.debug.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB275AB5FFEE6256C766CF7 /* Pods_GhiblisCharacterSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhiblisCharacterSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3B3DBA32CCB700C922C031 /* Pods-GhiblisCharacterSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearchUITests/Pods-GhiblisCharacterSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94202D18CDCE903041A89A11 /* Pods-GhiblisCharacterSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearchUITests/Pods-GhiblisCharacterSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99B8C4349C05531D0AAE0D93 /* Pods_GhiblisCharacterSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhiblisCharacterSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6051D81F995CE786DF4D97 /* Pods-GhiblisCharacterSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearchTests/Pods-GhiblisCharacterSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D13D83E22E3C7E400C38DD3 /* WebKit.framework in Frameworks */,
+				2A5382C27A73D918E679883E /* Pods_GhiblisCharacterSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB6A77F8AB15166A4D2FB7C /* Pods_GhiblisCharacterSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3258182F1C342CE211243F3 /* Pods_GhiblisCharacterSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +97,8 @@
 			children = (
 				4D62B57D22DE3C7900F31213 /* GhiblisCharacterSearch */,
 				4D62B57C22DE3C7900F31213 /* Products */,
+				B26C35E4FED9E5C3868C2A0F /* Pods */,
+				AC8E50FEADD26DFAC6559253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +115,7 @@
 		4D62B57D22DE3C7900F31213 /* GhiblisCharacterSearch */ = {
 			isa = PBXGroup;
 			children = (
+				4DA9B28F22DF46660086D39E /* Models */,
 				4D62B57E22DE3C7900F31213 /* AppDelegate.swift */,
 				4D62B58022DE3C7900F31213 /* SceneDelegate.swift */,
 				4D62B58222DE3C7900F31213 /* ViewController.swift */,
@@ -98,8 +123,41 @@
 				4D62B58722DE3C7A00F31213 /* Assets.xcassets */,
 				4D62B58922DE3C7A00F31213 /* LaunchScreen.storyboard */,
 				4D62B58C22DE3C7A00F31213 /* Info.plist */,
+				4D332E6F22E3B4B10006B50C /* Gradient.swift */,
 			);
 			path = GhiblisCharacterSearch;
+			sourceTree = "<group>";
+		};
+		4DA9B28F22DF46660086D39E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DA9B29022DF46C20086D39E /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8E50FEADD26DFAC6559253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D13D83D22E3C7E400C38DD3 /* WebKit.framework */,
+				99B8C4349C05531D0AAE0D93 /* Pods_GhiblisCharacterSearch.framework */,
+				2222550EB1DFAE6D311BD027 /* Pods_GhiblisCharacterSearchTests.framework */,
+				5DB275AB5FFEE6256C766CF7 /* Pods_GhiblisCharacterSearchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26C35E4FED9E5C3868C2A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB26CF80BAE5AA246EAB3AB /* Pods-GhiblisCharacterSearch.debug.xcconfig */,
+				425EFC60992C86A350588A2F /* Pods-GhiblisCharacterSearch.release.xcconfig */,
+				9F6051D81F995CE786DF4D97 /* Pods-GhiblisCharacterSearchTests.debug.xcconfig */,
+				1B6D0B41CCAAA630EE9893B6 /* Pods-GhiblisCharacterSearchTests.release.xcconfig */,
+				94202D18CDCE903041A89A11 /* Pods-GhiblisCharacterSearchUITests.debug.xcconfig */,
+				8E3B3DBA32CCB700C922C031 /* Pods-GhiblisCharacterSearchUITests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D62B5A522DE3C7A00F31213 /* Build configuration list for PBXNativeTarget "GhiblisCharacterSearch" */;
 			buildPhases = (
+				77F08CE07BF60B368F7C6AAE /* [CP] Check Pods Manifest.lock */,
 				4D62B57722DE3C7900F31213 /* Sources */,
 				4D62B57822DE3C7900F31213 /* Frameworks */,
 				4D62B57922DE3C7900F31213 /* Resources */,
+				70C7CBEB50D848DFC5F65D1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D62B5A822DE3C7A00F31213 /* Build configuration list for PBXNativeTarget "GhiblisCharacterSearchTests" */;
 			buildPhases = (
+				09ABECE1138BECCAADFC9E77 /* [CP] Check Pods Manifest.lock */,
 				4D62B58D22DE3C7A00F31213 /* Sources */,
 				4D62B58E22DE3C7A00F31213 /* Frameworks */,
 				4D62B58F22DE3C7A00F31213 /* Resources */,
@@ -144,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D62B5AB22DE3C7A00F31213 /* Build configuration list for PBXNativeTarget "GhiblisCharacterSearchUITests" */;
 			buildPhases = (
+				ABE05730DADCD03EFE3FD32B /* [CP] Check Pods Manifest.lock */,
 				4D62B59822DE3C7A00F31213 /* Sources */,
 				4D62B59922DE3C7A00F31213 /* Frameworks */,
 				4D62B59A22DE3C7A00F31213 /* Resources */,
@@ -228,14 +290,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09ABECE1138BECCAADFC9E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhiblisCharacterSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C7CBEB50D848DFC5F65D1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F08CE07BF60B368F7C6AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhiblisCharacterSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE05730DADCD03EFE3FD32B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhiblisCharacterSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D62B57722DE3C7900F31213 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D332E7022E3B4B10006B50C /* Gradient.swift in Sources */,
 				4D62B58322DE3C7900F31213 /* ViewController.swift in Sources */,
 				4D62B57F22DE3C7900F31213 /* AppDelegate.swift in Sources */,
 				4D62B58122DE3C7900F31213 /* SceneDelegate.swift in Sources */,
+				4DA9B29122DF46C20086D39E /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +554,7 @@
 		};
 		4D62B5A622DE3C7A00F31213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB26CF80BAE5AA246EAB3AB /* Pods-GhiblisCharacterSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -421,6 +572,7 @@
 		};
 		4D62B5A722DE3C7A00F31213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425EFC60992C86A350588A2F /* Pods-GhiblisCharacterSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +590,7 @@
 		};
 		4D62B5A922DE3C7A00F31213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6051D81F995CE786DF4D97 /* Pods-GhiblisCharacterSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +611,7 @@
 		};
 		4D62B5AA22DE3C7A00F31213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6D0B41CCAAA630EE9893B6 /* Pods-GhiblisCharacterSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +632,7 @@
 		};
 		4D62B5AC22DE3C7A00F31213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94202D18CDCE903041A89A11 /* Pods-GhiblisCharacterSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +652,7 @@
 		};
 		4D62B5AD22DE3C7A00F31213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3B3DBA32CCB700C922C031 /* Pods-GhiblisCharacterSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
