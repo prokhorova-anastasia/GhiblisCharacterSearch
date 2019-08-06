@@ -11,6 +11,8 @@
 		3FB6A77F8AB15166A4D2FB7C /* Pods_GhiblisCharacterSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2222550EB1DFAE6D311BD027 /* Pods_GhiblisCharacterSearchTests.framework */; };
 		4D13D83E22E3C7E400C38DD3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D13D83D22E3C7E400C38DD3 /* WebKit.framework */; };
 		4D332E7022E3B4B10006B50C /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D332E6F22E3B4B10006B50C /* Gradient.swift */; };
+		4D42404B22F84E7100977E71 /* ServerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42404A22F84E7100977E71 /* ServerCard.swift */; };
+		4D42404D22F8563100977E71 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42404C22F8563100977E71 /* Array.swift */; };
 		4D62B57F22DE3C7900F31213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B57E22DE3C7900F31213 /* AppDelegate.swift */; };
 		4D62B58122DE3C7900F31213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B58022DE3C7900F31213 /* SceneDelegate.swift */; };
 		4D62B58322DE3C7900F31213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62B58222DE3C7900F31213 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 		425EFC60992C86A350588A2F /* Pods-GhiblisCharacterSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhiblisCharacterSearch.release.xcconfig"; path = "Target Support Files/Pods-GhiblisCharacterSearch/Pods-GhiblisCharacterSearch.release.xcconfig"; sourceTree = "<group>"; };
 		4D13D83D22E3C7E400C38DD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4D332E6F22E3B4B10006B50C /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		4D42404A22F84E7100977E71 /* ServerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCard.swift; sourceTree = "<group>"; };
+		4D42404C22F8563100977E71 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		4D62B57B22DE3C7900F31213 /* GhiblisCharacterSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhiblisCharacterSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D62B57E22DE3C7900F31213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D62B58022DE3C7900F31213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				4D62B58922DE3C7A00F31213 /* LaunchScreen.storyboard */,
 				4D62B58C22DE3C7A00F31213 /* Info.plist */,
 				4D332E6F22E3B4B10006B50C /* Gradient.swift */,
+				4D42404A22F84E7100977E71 /* ServerCard.swift */,
+				4D42404C22F8563100977E71 /* Array.swift */,
 			);
 			path = GhiblisCharacterSearch;
 			sourceTree = "<group>";
@@ -383,6 +389,8 @@
 			files = (
 				4D332E7022E3B4B10006B50C /* Gradient.swift in Sources */,
 				4D62B58322DE3C7900F31213 /* ViewController.swift in Sources */,
+				4D42404D22F8563100977E71 /* Array.swift in Sources */,
+				4D42404B22F84E7100977E71 /* ServerCard.swift in Sources */,
 				4D62B57F22DE3C7900F31213 /* AppDelegate.swift in Sources */,
 				4D62B58122DE3C7900F31213 /* SceneDelegate.swift in Sources */,
 				4DA9B29122DF46C20086D39E /* Character.swift in Sources */,

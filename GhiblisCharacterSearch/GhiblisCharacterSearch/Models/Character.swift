@@ -8,17 +8,19 @@
 
 import Foundation
 
-class Character {
+class Character : Codable {
     var id: String?
     var name: String?
     var age: String?
-    var films: String?
+    var films: [String]?
     var url: String?
+    var hair_color: String?
     
-    init(id: String? = nil, name: String? = nil, age: String? = nil, films: String? = nil, url: String? = nil){
+    init(id: String? = nil, name: String? = nil, age: String? = nil, hair_color: String? = nil, films: [String]? = nil, url: String? = nil){
         self.id = id
         self.name = name
         self.age = age
+        self.hair_color = hair_color
         self.films = films
         self.url = url
     }
